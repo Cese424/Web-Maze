@@ -2,7 +2,7 @@
 
 This is a website made by Cese424
 
-Im a braziliam 16 years men learning html, css and js (and english)
+Im a braziliam 16 years men learning html, css and js (english too)
 
 <br>
 
