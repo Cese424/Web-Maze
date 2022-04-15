@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Secular+One&display=swap');
+
+body{
+    font-family: 'Secular One', sans-serif;
+}
+
+
+h1 {
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+    top: 25vh;
+    margin: 0;
+}
+
+h2 {
+    position: relative;
+    font-size: 70px;
+    text-align: center;
+    top: 27vh;
+    margin: 0;
+}
+
+div {
+    position: relative;
+    top: 35vh;
+    text-align: center;
+    margin: 0;
+}
+
+
+button {
+    display: inline-block;
+    padding: 30px 50px;
+    font-size: 48px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #af4c4c;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 18px #999;
+}
+
+button:hover {
+    background-color: #3e8e41
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 10px #666;
+    transform: translateY(4px);
+}
