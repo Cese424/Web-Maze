@@ -66,6 +66,7 @@ body {
 
   img {
       width: 300px;
+      cursor: pointer;
   }
 
 h1 {
