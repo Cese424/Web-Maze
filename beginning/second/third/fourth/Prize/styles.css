@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
+@media only screen and (max-width: 1330px) {
+    .computer {
+      visibility: hidden;
+    }
+  
+    .error {
+      position: absolute;
+      top: 40vh;
+      font-size: 10vw;
+      text-align: center;
+      visibility: visible;
+    }
+  }
+  
+  @media only screen and (min-width: 1331px) {
+    .computer {
+      visibility: visible;
+    }
+  
+    .error {
+      visibility: hidden;
+    }
+}
+
 body {
     text-align: center;
     font-family: 'Raleway', sans-serif;

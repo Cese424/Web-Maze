@@ -1,76 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
+@media only screen and (max-width: 1330px) {
+  .computer {
+    visibility: hidden;
+  }
+
+  .error {
+    position: absolute;
+    top: 40vh;
+    font-size: 10vw;
+    text-align: center;
+    visibility: visible;
+  }
+
+}
+
+@media only screen and (min-width: 1331px) {
+  .computer {
+    visibility: visible;
+  }
+
+  .error {
+    visibility: hidden;
+  }
+}
+
+
 body {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    font-family: 'Raleway', sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(250, 250, 250);
 }
 
 .container-master {
-    display: grid;
-    height: 300px;
+  display: grid;
+  height: 300px;
 }
 
 .container {
-    position: absolute;
-    text-align: center;
-    left: 20%;
-    margin-left: -150px;
-    color: white;
-    height: 300px;
-    width: 300px;
-  }
+  position: absolute;
+  text-align: center;
+  left: 20%;
+  margin-left: -150px;
+  color: white;
+  height: 300px;
+  width: 300px;
+}
 
 
-  .container_two {
-    position: absolute;
-    text-align: center;
-    left: 40%;
-    margin-left: -150px;
-    color: white;
-    height: 300px;
-    width: 300px;
-  }
+.container_two {
+  position: absolute;
+  text-align: center;
+  left: 40%;
+  margin-left: -150px;
+  color: white;
+  height: 300px;
+  width: 300px;
+}
 
-  .container_three {
-    position: absolute;
-    text-align: center;
-    left: 60%;
-    margin-left: -150px;
-    color: white;
-    height: 300px;
-    width: 300px;
-  }
+.container_three {
+  position: absolute;
+  text-align: center;
+  left: 60%;
+  margin-left: -150px;
+  color: white;
+  height: 300px;
+  width: 300px;
+}
 
-  .container_four {
-    position: absolute;
-    text-align: center;
-    left: 80%;
-    margin-left: -150px;
-    color: white;
-    height: 300px;
-    width: 300px;
-  }
+.container_four {
+  position: absolute;
+  text-align: center;
+  left: 80%;
+  margin-left: -150px;
+  color: white;
+  height: 300px;
+  width: 300px;
+}
 
-  .centered {
-    font-size: 100px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+.centered {
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  img {
-      width: 300px;
-      cursor: pointer;
-  }
+img {
+  width: 300px;
+  cursor: pointer;
+}
 
 h1 {
-    margin-bottom: 250px;
-    text-align: center;
-    font-size: 100px;
+  margin-bottom: 250px;
+  text-align: center;
+  font-size: 100px;
 }
